@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(241, 254, 254);
+}
+.bar1{
+    color: #111;
+}
+.logo{
+    margin: 0px 20px 20px 850px;
+    padding: 15px 30px 15px 30px;
+    width: 45px;
+    height: 55px;
+    }
+.logotext {
+  margin: 0px 0px 0px 80px;
+  font-size: 80px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-shadow: 6px 6px 6px rgb(4, 4, 4);
+  color: rgb(255, 255, 255);
+}
+.date {
+  margin: -10px 0px -10px 90px;
+  font-size: 15px;
+  font-family: Verdana;
+  color: white;
+}
+.textafterlogo {
+  margin: 0px 0px 15px 70px;
+  font-size: 30px;
+  font-family: Verdana;
+  font-weight: bold;
+  color: darkblue;
+}
+ul {
+  list-style-type: none;
+  margin: 5px 0px 25px 0px;
+  padding: -15px 10px -15px 10px;
+  overflow: hidden;
+  background-color: rgb(32, 32, 160);
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+li {
+  float: left;
+  color: aliceblue;
+  margin-left: 60px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: double;
+}
+.active:hover {
+  background-color: #777dec;
+}
+.search{
+  text-align: right;
+  color: white;
+  font-size: medium;
+  padding: 10px 35px 5px 10px;
+}
+.h22 {
+  margin: 5px 0px -5px 30px;
+  color: darkblue;
+
+}
+.block {
+  padding: 50px;
+  margin: -70px 10px 10px 10px;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 20px 10px;
+  padding: 0px;
+  width: 600px;
+  height: 450px;
+  border-radius: none;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 5px rgb(13, 130, 62);
+  background-color: white;
+  text-align: justify;
+}
+.texture {
+  text-align: justify;
+  text-indent: 30px;
+  padding: 0px 10px 0px 10px;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+img {
+  width: 600px;
+  height: 300px;
+}
+.footer {
+  text-align: center;
+}
+button {
+    background: none;
+    border: none;
+    outline: none;
+  }
+.button {
+    background: rgb(54, 54, 208);
+    border: 10px;
+    padding: 5px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 0px 40px 0px;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+    font-size: 25px;
+text-decoration-color: aliceblue;
+  }
+  .button:active {
+    background-color: rgb(237, 110, 197);
+      }
+  .active1{
+    padding: -5px 0px -5px 0px;
+  }
+  .news{
+    color: aliceblue;
+  }
